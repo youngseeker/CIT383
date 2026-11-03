@@ -1,0 +1,55 @@
+A class is a blueprint. An object is a thing built from it (a house from the blueprint).
+
+Encapsulation: the object keeps its data private and lets others access it only through its methods (get/set). Hiding the data this way is 'data hiding'.
+
+Inheritance ("is-a"): a new class can extend an old one and get everything it has. A CoffeeCup is a Cup.
+
+Polymorphism: one name, many behaviours. Overloading (same name, different parameters) and overriding (a subclass rewrites an inherited method).
+
+Composition ("has-a"): a class holds objects of other classes. A Student has a Date of birth.
+
+Operator overloading (C#, not Java): teaching +, &, true, casts and [ ] to work on your own class.
+
+A class is a collection of a fixed number of components, called the members of the class. The mechanism in Java that combines data and the operations on that data in a single unit is called a class. In Java, class is a reserved word; it defines only a data type, and no memory is allocated until objects are created. Members are a named constant, a variable (to store data) or a method. Data members are also called fields.
+
+modifier(s) class ClassIdentifier modifier(s)
+{
+    classMembers
+}
+
+// fuller form from the course:
+["public"] ["abstract" | "final"] class Class_name ["extends" object_name] ["implements" interface_name]
+{
+    // properties declarations
+    // behaviour declarations
+}
+public sets visibility (default: visible within the current package only). abstract classes must be extended; final classes can never be extended. By convention the class name starts with a capital letter.
+
+
+Benefits of OOP
+- Modularity
+- Information-hiding
+- Code re-use
+- Pluggability and debugging ease
+
+A variable is a named memory location that stores a data value which can change while the program runs. It is declared with a data type and name. 
+
+4 types of methods in Java
+- Constructor: sets up/initialises a new object
+- Accessor get(): reads a field; and Mutator set(): sets a field
+- Helper: Private; used inside the class
+- Recursive: calls itself
+
+
+Message passing in CS is a form of communication used in parallel computing, OOP, and inter-process communication.
+Message passing systems have been called "shared nothing" systems because the message passing abstraction hides underlying state changes that may be used in the implementation of sending messages.
+
+Message-Passing Styles:
+- Actor Model Implementation
+- Amorphous computing
+- Antiobjects
+- Flow-based programming
+- SOAP (Protocol)
+- Streams/Pipes
+
+
